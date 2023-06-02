@@ -127,7 +127,7 @@ const Post = ({ post }) => {
         {post?.desc}
       </p>
       <div className={classes.postImgContainer}>
-        <img src={post.imageUrl ? `http://localhost:5000/images/${post.imageUrl}` : italy} alt="" className={classes.postImg} />
+        <img src={post.imageUrl ? `https://facebook-g6fm.onrender.com/images/${post.imageUrl}` : italy} alt="" className={classes.postImg} />
       </div>
       <div className={classes.actions}>
         {

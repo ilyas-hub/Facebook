@@ -27,7 +27,7 @@ const Friends = () => {
         {friends?.length > 0 ? <h3>Your friends</h3> : ''}
         {friends?.length > 0 ? friends?.map((friend) => (
           <div key={friend._id} className={classes.friend}>
-            <img src={friend?.profilePic ? `http://localhost:5000/images/${friend?.profilePic}` : person} className={classes.friendImg} alt="" />
+            <img src={friend?.profilePic ? `https://facebook-g6fm.onrender.com/images/${friend?.profilePic}` : person} className={classes.friendImg} alt="" />
             <span>{friend.username}</span>
           </div>
         )) : <h3 style={{textAlign: 'center'}}>You currently have no friends</h3>}

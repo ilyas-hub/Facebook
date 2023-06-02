@@ -16,7 +16,7 @@ const Profile = () => {
     const [userPosts, setUserPosts] = useState([])
     const [isFollowed, setIsFollowed] = useState(user.followings.includes(id))
     const [profileDetails, setProfileDetails] = useState("")
-    const BACKEND_URL = `http://localhost:5000/images/`
+    const BACKEND_URL = `https://facebook-g6fm.onrender.com/images/`
 
     useEffect(() => {
         const fetchPosts = async() => {
